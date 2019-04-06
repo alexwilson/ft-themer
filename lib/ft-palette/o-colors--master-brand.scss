@@ -1,0 +1,40 @@
+@import 'o-colors/main';
+
+$theme-light: (
+    // Error
+    accent0: oColorsGetPaletteColor(crimson),
+
+    // Syntax
+    accent1: oColorsGetPaletteColor(teal),
+
+    // Warning
+    accent2: oColorsGetPaletteColor(lemon),
+
+    // Success
+    accent3: oColorsGetPaletteColor(jade),
+
+    // Syntax
+    accent4: oColorsGetPaletteColor(velvet),
+    accent5: oColorsGetPaletteColor(mandarin),
+
+    // Cursor
+    accent6: oColorsGetPaletteColor(claret),
+
+    // Special
+    accent7: oColorsGetPaletteColor(oxford),
+
+
+    // Background
+    shade0: oColorsGetPaletteColor(paper),
+
+    // UI
+    shade1: oColorsGetPaletteColor(white-10),
+    shade2: oColorsGetPaletteColor(white-20),
+    shade3: oColorsGetPaletteColor(white-40),
+    shade4: oColorsGetPaletteColor(white-60),
+    shade5: oColorsGetPaletteColor(white-80),
+
+    // Text
+    shade6: oColorsGetPaletteColor(slate),
+    shade7: oColorsGetPaletteColor(black),
+);

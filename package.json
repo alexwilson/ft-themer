@@ -1,0 +1,20 @@
+{
+  "name": "ft-themer",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@financial-times/o-colors": "^4.8.5",
+    "node-sass": "^4.11.0",
+    "sass-extract": "^2.1.0",
+    "themer": "^3.1.6",
+    "themer-chrome": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm run build:chrome && npm run build:slack",
+    "build:chrome": "themer -c themer-colors-master-ft -t themer-chrome -o dist",
+    "build:slack": "themer -c themer-colors-master-ft -t pkg/themer-slack-ft -o dist"
+  },
+  "author": "Alex Wilson <a@ax.gy>",
+  "license": "ISC"
+}
