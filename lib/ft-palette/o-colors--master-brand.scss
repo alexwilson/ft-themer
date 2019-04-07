@@ -3,17 +3,15 @@
 $theme-light: (
     // Error
     accent0: oColorsGetPaletteColor(crimson),
-
-    // Syntax
-    accent1: oColorsGetPaletteColor(teal),
-
+    
     // Warning
     accent2: oColorsGetPaletteColor(lemon),
-
+    
     // Success
     accent3: oColorsGetPaletteColor(jade),
-
+    
     // Syntax
+    accent1: oColorsGetPaletteColor(teal),
     accent4: oColorsGetPaletteColor(velvet),
     accent5: oColorsGetPaletteColor(mandarin),
 
@@ -24,8 +22,9 @@ $theme-light: (
     accent7: oColorsGetPaletteColor(oxford),
 
 
+
     // Background
-    shade0: oColorsGetPaletteColor(paper),
+    shade0: oColorsGetColorFor(page, background, (default: paper)),
 
     // UI
     shade1: oColorsGetPaletteColor(white-10),
@@ -35,6 +34,6 @@ $theme-light: (
     shade5: oColorsGetPaletteColor(white-80),
 
     // Text
-    shade6: oColorsGetPaletteColor(slate),
-    shade7: oColorsGetPaletteColor(black),
+    shade6: oColorsGetColorFor(body, text, (default: slate)),
+    shade7: oColorsGetColorFor(title, text, (default: black)),
 );
